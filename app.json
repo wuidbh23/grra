@@ -1,0 +1,20 @@
+{
+  "name": "deploy",
+  "description": "deploy",
+  "keywords": [
+    "deploy"
+  ],
+  "env": {
+    "UUID": {
+      "description": "UUID",
+      "value": "",
+      "required": true
+    }
+  },
+  "website": "https://github.com/wuidbh23/grra",
+  "repository": "https://github.com/wuidbh23/grra",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
